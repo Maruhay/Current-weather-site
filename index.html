@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center">
+            Weather
+        </h1>
+    </div>
+    <div class="container" id="cities">
+        <div class="row justify-content-center">
+            
+            <div class="col-10 col-sm-6 col-lg-4 mb-3" id="city-new">
+                <div class="p-3">
+                    <div class="alert alert-danger" id="city-404">
+                        <strong>Error!</strong> City not found.
+                    </div>
+                    <input type="text" class="w-100" name="new-city" id="new-city" placeholder="Enter city name">
+                    <br>
+                    <button class="btn btn-primary btn-block mt-3" onclick="addCityWeather()">
+                        Add city
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

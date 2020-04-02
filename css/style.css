@@ -1,0 +1,31 @@
+body{
+    background-color: #e6f2ff;
+}
+
+body > div > h1{
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    color: #003e80;
+}
+
+div#cities > div > div > div{
+    background-color: #cce5ff;
+    border-radius: 5px;
+}
+
+div#cities > div > div > div > h1{
+    color: #003e80;
+    font-family: 'Righteous', cursive;
+}
+
+.btn-close{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #fff;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+#city-404{ display: none; }
